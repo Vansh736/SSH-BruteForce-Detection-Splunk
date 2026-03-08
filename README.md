@@ -142,7 +142,7 @@ Hydra brute-force attack performed from Kali Linux.
 
 Ubuntu server where the SSH attack was performed.
 
-![Victim Machine](testing_victim_machine.png)
+![Victim Machine]("Auth_log_Monitoring_ubuntu.png)
 
 ---
 
@@ -186,3 +186,4 @@ sudo iptables -I INPUT -s <attacker_ip> -p tcp --dport 22 -j DROP
 
 Vansh Tiwari
 Cybersecurity Student | SOC Analyst Learner
+
