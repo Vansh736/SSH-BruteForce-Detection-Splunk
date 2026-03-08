@@ -72,7 +72,7 @@ A brute-force attack is simulated from **Kali Linux** using Hydra.
 Command used:
 
 ```bash
-hydra -t 4 -V -f -l raj -P /tmp/passlist.txt ssh://10.42.232.156
+hydra -t 4 -V -f -l raj -P /tmp/passlist.txt ssh://<TARGET_IP>
 ```
 
 ### Command Explanation
@@ -186,5 +186,6 @@ sudo iptables -I INPUT -s <attacker_ip> -p tcp --dport 22 -j DROP
 
 Vansh Tiwari
 Cybersecurity Student | SOC Analyst Learner
+
 
 
