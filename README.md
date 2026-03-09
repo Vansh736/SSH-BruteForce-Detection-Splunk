@@ -180,12 +180,7 @@ sudo iptables -I INPUT -s <attacker_ip> -p tcp --dport 22 -j DROP
 * Extracting attacker IP addresses
 * Implementing firewall-based mitigation
 
----
 
-## Author
-
-Vansh Tiwari
-Cybersecurity Student | SOC Analyst Learner
 
 
 
